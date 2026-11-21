@@ -1,156 +1,69 @@
-
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KenzCraft Hosting</title>
+<title>KenzCraft Web Studio</title>
 <style>
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #101827;
-  color: white;
-}
-header {
-  padding: 22px 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #172338;
-}
-.logo {
-  color: #3994ff;
-  font-size: 23px;
-  font-weight: bold;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 15px;
-  font-size: 14px;
-}
-.hero {
-  text-align: center;
-  padding: 90px 20px;
-}
-.hero h1 {
-  font-size: 38px;
-}
-.hero span {
-  color: #3994ff;
-}
-.hero p {
-  color: #b7c2d2;
-  line-height: 1.7;
-}
-.button {
-  display: inline-block;
-  background: #2878d0;
-  color: white;
-  padding: 13px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 15px;
-}
-section {
-  padding: 45px 8%;
-  text-align: center;
-}
-.cards {
-  display: grid;
-  grid-template-columns:
-    repeat(auto-fit, minmax(190px, 1fr));
-  gap: 18px;
-}
-.card {
-  background: #1c2a40;
-  padding: 25px;
-  border-radius: 12px;
-}
-.price {
-  color: #3994ff;
-  font-size: 25px;
-  font-weight: bold;
-}
-footer {
-  padding: 25px;
-  text-align: center;
-  background: #172338;
-  color: #9eafc5;
-}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b1224;color:white;line-height:1.6}
+header{background:#101b35;padding:20px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:bold;color:#55aaff}
+nav a{color:white;text-decoration:none;margin-left:12px;font-size:13px}
+.hero{text-align:center;padding:90px 20px;background:linear-gradient(135deg,#101b35,#142d55)}
+.hero h1{font-size:clamp(32px,7vw,52px);margin-bottom:15px}
+.hero span{color:#55aaff}
+.hero p{color:#c4d1e8;max-width:550px;margin:auto}
+.btn{display:inline-block;margin-top:25px;padding:13px 25px;background:#1685ed;color:white;border-radius:8px;text-decoration:none;font-weight:bold}
+section{padding:60px 7%}
+h2{text-align:center;margin-bottom:30px;font-size:30px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#15233e;padding:25px;border:1px solid #263d65;border-radius:12px}
+.card h3{color:#55aaff;margin-bottom:10px}
+.card p{color:#c4d1e8;font-size:14px}
+.center{text-align:center}
+.contact{background:#101b35}
+footer{text-align:center;padding:20px;color:#9aabc5;font-size:13px}
 </style>
 </head>
 <body>
-
 <header>
-  <div class="logo">KENZCRAFT</div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#paket">Paket</a>
-    <a href="#kontak">Kontak</a>
-  </nav>
+<div class="logo">KENZCRAFT</div>
+<nav>
+<a href="#layanan">Layanan</a>
+<a href="#tentang">Tentang</a>
+<a href="#kontak">Kontak</a>
+</nav>
 </header>
 
-<div class="hero" id="home">
-  <h1>WELCOME TO <span>KENZCRAFT</span></h1>
-  <p>
-    Hosting Minecraft Java & Bedrock.<br>
-    Your World. Your Server. Your Adventure.
-  </p>
-  <a href="#paket" class="button">
-    LIHAT PAKET
-  </a>
+<div class="hero">
+<h1>Build Your <span>Digital Future.</span></h1>
+<p>KenzCraft Web Studio membantu bisnis, komunitas, dan kreator memiliki website modern, menarik, dan responsif.</p>
+<a class="btn" href="#layanan">JELAJAHI LAYANAN</a>
 </div>
 
-<section id="paket">
-  <h2>PAKET HOSTING</h2>
-  <p>Contoh paket harga, belum tersedia untuk pembelian.</p>
-
-  <div class="cards">
-    <div class="card">
-      <h3>STARTER</h3>
-      <div class="price">Rp15.000</div>
-      <p>RAM 2 GB</p>
-      <p>SSD Storage</p>
-    </div>
-
-    <div class="card">
-      <h3>BASIC</h3>
-      <div class="price">Rp30.000</div>
-      <p>RAM 4 GB</p>
-      <p>SSD Storage</p>
-    </div>
-
-    <div class="card">
-      <h3>ADVANCED</h3>
-      <div class="price">Rp45.000</div>
-      <p>RAM 6 GB</p>
-      <p>SSD Storage</p>
-    </div>
-  </div>
+<section id="layanan">
+<h2>Layanan Kami</h2>
+<div class="cards">
+<div class="card"><h3>Website Bisnis</h3><p>Website profesional untuk memperkenalkan usaha dan layanan.</p></div>
+<div class="card"><h3>Toko Online</h3><p>Katalog produk dan informasi pemesanan pelanggan.</p></div>
+<div class="card"><h3>Website Gaming</h3><p>Website komunitas Minecraft, gaming, dan esports.</p></div>
+<div class="card"><h3>Website Portofolio</h3><p>Tempat menampilkan karya, profil, dan pengalaman.</p></div>
+</div>
 </section>
 
-<section>
-  <h2>KENAPA KENZCRAFT?</h2>
-  <p>✓ Pengelolaan server praktis</p>
-  <p>✓ Java dan Bedrock</p>
-  <p>✓ Bantuan teknis</p>
-  <p>✓ Backup server</p>
+<section id="tentang">
+<h2>Tentang KenzCraft</h2>
+<p class="center" style="color:#c4d1e8">Kami membangun pengalaman digital melalui website yang sederhana, modern, dan mudah digunakan.</p>
 </section>
 
-<section id="kontak">
-  <h2>HUBUNGI KAMI</h2>
-  <p>KENZCRAFT HOSTING - Coming Soon</p>
+<section class="contact" id="kontak">
+<h2>Punya Ide Website?</h2>
+<p class="center">Hubungi KenzCraft untuk membicarakan proyekmu.</p>
+<a class="btn" href="mailto:kontak@kenzcraft.example">HUBUNGI KAMI</a>
 </section>
 
-<footer>
-  © 2026 KenzCraft Hosting.
-  All Rights Reserved.
-</footer>
-
+<footer>© 2026 KenzCraft Web Studio. All Rights Reserved.</footer>
 </body>
 </html>
+
